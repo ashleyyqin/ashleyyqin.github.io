@@ -1,26 +1,26 @@
 ---
-title: Writing
-layout: basic
+title: About
+layout: default
 ---
 
-<h1>Writing</h1>
+<h1>About Me</h1>
 
-<h2>Blog posts and writing</h2>
+<article class="container mx-auto px-2 mt2 mb4">
+    <div class="prose mb-4 py-2">
+        <div style="display: grid;grid-template-columns: 40% 47%;grid-column-gap: 40px;">
+            <p>
+                Lorem Ipsum
+                <br><br>
+                Lorem Ipsum
+            </p>
 
-{% for post in site.posts %}
+            <p align="center">
+                <img src="/media/profile.jpg" alt="aboutpic">
+            </p>
+        </div>
 
-<div class="posts-entry">
-    <a class="posts-entry-title" href="{{ post.url }}">{{ post.title }}</a>
-    <span class="posts-entry-date">{{ post.date | date: "%B %-d, %Y" }}</span>
-    <span class="posts-entry-blurb">{{ post.blurb }}</span>
-</div>
-
-{% endfor %}
-
-<h2>Elsewhere on the internet</h2>
-
-<div class="posts-entry">
-    <a class="posts-entry-title" href="https://medium.com/louisville-metro-opi2/data-driven-governance-reflecting-on-opi2-bdd324aefbdc">It’s Data, Man: OPI², in retrospect</a>
-    <span class="posts-entry-date">July 30, 2018 via Medium</span>
-    <span class="posts-entry-blurb">A summer intern’s reflection on Waze CCP, Power BI, and the future of civic governance</span>
-</div>
+        <p>
+            When I’m not designing, coding, or in the lab, you can find me dancing with <a href="https://www.youtube.com/user/RhythmicBlueAtYale/videos">Rhythmic Blue</a> (a.k.a. my favorite people), or trying to learn how to ollie on a skateboard.
+        </p>
+    </div>
+</article>
