@@ -9,7 +9,8 @@
 /* MAIN STYLES */
 
 body {
-    font-family: 'Alata', 'Arial', sans-serif;
+    /*font-family: 'Alata', 'Arial', sans-serif;*/
+    font-family: 'Alata';
     padding: 0;
     margin: 0;
     line-height: 1.85em;
@@ -44,7 +45,8 @@ footer a:not(.button):not(.arrow):hover {
 }
 
 code {
-    font-family: 'IBM Plex Mono', Consolas, 'Courier New', monospace;
+    /*font-family: 'IBM Plex Mono', Consolas, 'Courier New', monospace;*/
+    font-family: 'Alata';
     padding: 2px 4px;
     font-size: 90%;
     color: #c7254e;
@@ -146,7 +148,7 @@ header a {
 
 header a:hover {
     color: var(--color-blue);
-    transition: all 0.25s;
+    /*transition: all 0.25s;*/
 }
 
 #siteTitle {
@@ -306,8 +308,9 @@ main {
 
 .wide {
     max-width: 768px;
-    padding: 1.5em 3em;
-    margin-left: auto;
+    /*padding: 1.5em 3em;
+    margin-left: auto;*/
+    margin-left: 8em;
     margin-right: auto;
 }
 
@@ -468,8 +471,17 @@ main {
     height: 4em;
 }
 
-.home-title {
-    font-size: 300%;
+.home-title1 {
+    font-size: 175%;
+    font-weight: bold;
+    /*margin-bottom: 1em;*/
+    margin-left: 8em;
+    color: #c0c0c0;
+}
+
+.home-title2 {
+    font-family: Alata;
+    font-size: 350%;
     margin-bottom: 1em;
     margin-left: 8em;
 }
@@ -482,6 +494,7 @@ main {
     font-weight: 400;
     font-size: 175%;
     line-height: 150%;
+    color: #c0c0c0;
 }
 
 .home-blurb {
