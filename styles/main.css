@@ -156,14 +156,13 @@ header a:hover {
 
 nav {
     z-index: 2000;
-    /*margin-left: auto;*/
 }
 
 nav a {
     font-size: 100%;
-    /*letter-spacing: 0.05em;
-    margin: 1em;*/
-    margin-right: 9em;
+    letter-spacing: 0.05em;
+    margin: 1em;
+    /*margin-right: 9em;*/
 }
 
 footer {
