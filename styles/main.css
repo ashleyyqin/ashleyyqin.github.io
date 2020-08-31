@@ -156,7 +156,7 @@ header a:hover {
 
 nav {
     z-index: 2000;
-    margin-left: auto;
+    /*margin-left: auto;*/
 }
 
 nav a {
