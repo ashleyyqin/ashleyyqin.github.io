@@ -21,7 +21,7 @@ img {
     border: none;
     position: relative;
     display: block;
-    /*z-index: 2000;*/
+    z-index: 2000;
 }
 
 main a:not(.button):not(.fa):not(.arrow),
@@ -158,7 +158,6 @@ nav {
     z-index: 2000;
     margin-left: auto;
     justify-items: right;
-    margin-right: 6em;
 }
 
 nav a {
@@ -540,8 +539,8 @@ main {
     margin: -140px 0 24px 20px;
     margin-top: 4em;
     margin-right: 2em;*/
-    display: flex;
-    justify-items: flex-end;
+    float: right;
+    margin: 10px;
 }
 
 @media screen and (max-width: 768px) {
