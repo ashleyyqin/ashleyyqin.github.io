@@ -161,8 +161,8 @@ nav {
 
 nav a {
     font-size: 100%;
-    letter-spacing: 0.05em;
-    /*margin: 1em;*/
+    /*letter-spacing: 0.05em;
+    margin: 1em;*/
     margin-right: 9em;
 }
 
@@ -468,21 +468,23 @@ main {
 }
 
 .home-title1 {
+    margin-top: 1em;
+    margin-bottom: 1em;
+    margin-left: 4em;
+    display: block;
+    font-weight: 400;
     font-size: 175%;
-    font-weight: bold;
-    margin-bottom: 0.5em;
-    margin-top: 8em;
-    /*margin-left: 8em;
-    margin-right: 8em;*/
+    line-height: 150%;
     color: #c0c0c0;
 }
 
 .home-title2 {
     font-family: Alata;
     font-size: 400%;
+    margin-top: 1em;
     margin-bottom: 1em;
-    margin-top: 2em;
-    /*margin-left: 8em;*/
+    margin-left: 4em;
+    display: block;
 }
 
 .home-subtitle {
@@ -542,9 +544,9 @@ main {
     /*border-radius: 50%;
     width: 320px;
     float: right;
-    margin: -140px 0 24px 20px;*/
+    margin: -140px 0 24px 20px;
     margin-top: 4em;
-    margin-right: 2em;
+    margin-right: 2em;*/
 }
 
 @media screen and (max-width: 768px) {
