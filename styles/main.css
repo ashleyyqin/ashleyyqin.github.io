@@ -156,6 +156,7 @@ header a:hover {
 
 nav {
     z-index: 2000;
+    margin-left: 15em;
 }
 
 nav a {
@@ -542,10 +543,11 @@ main {
 #bio-prof-pic {
     /*border-radius: 50%;
     width: 320px;
-    float: right;
     margin: -140px 0 24px 20px;
     margin-top: 4em;
     margin-right: 2em;*/
+    float: right;
+    margin: 10px;
 }
 
 @media screen and (max-width: 768px) {
