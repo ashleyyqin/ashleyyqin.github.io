@@ -162,11 +162,11 @@ nav a {
     font-size: 100%;
     letter-spacing: 0.05em;
     margin: 1em;
-    /*margin-right: 9em;*/
+    margin-right: 15em;
 }
 
 footer {
-    padding: 0 auto;
+    padding: auto;
     display: flex;
     align-items: center;
     padding: 3em;
@@ -472,7 +472,7 @@ main {
     margin-left: 4em;
     display: block;
     font-weight: 400;
-    font-size: 175%;
+    font-size: 200%;
     line-height: 150%;
     color: #c0c0c0;
 }
@@ -497,12 +497,12 @@ main {
     color: #c0c0c0;
 }
 
-.home-blurb {
+/*.home-blurb {
     display: block;
     font-weight: 400;
     font-size: 125%;
     line-height: 145%;
-}
+}*/
 
 .home-bottom {
     display: block;
