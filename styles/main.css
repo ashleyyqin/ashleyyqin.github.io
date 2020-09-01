@@ -229,72 +229,6 @@ ol li > * {
     margin: 0;
 }
 
-/*.list-plus,
-.list-arrows {
-    padding-left: 40px;
-    margin-top: 1.5em;
-    margin-bottom: 1.5em;
-}
-
-.list-plus li,
-.list-arrows li {
-    text-indent: -2em;
-}
-
-.list-plus li:before,
-.list-arrows li:before {
-    padding-right: 1em;
-}
-
-.list-plus li:before {
-    content: "+";
-    padding-right: 1.35em;
-}
-
-.list-arrows li:before {
-    content: "→";
-}
-
-.list-bold {
-    font-weight: bold;
-}
-
-.list-bar {
-    padding-left: 0;
-    margin-top: 12px;
-    margin-bottom: 12px;
-    line-height: 2em;
-}
-
-.list-bar li {
-    display: inline;
-    padding: .25em .5em;
-    color: white;
-    text-indent: -1.3125em;
-}
-
-.list-bar.actions li {
-    background-color: var(--color-slate);
-}
-
-.list-bar.tools li {
-    background-color: var(--color-pink);
-}
-
-.list-bar.buttons li {
-    transition: all 0.25s ease-in-out;  
-}
-
-.list-bar.buttons li:hover {
-    opacity: 0.5;
-    transition: all 0.25s;  
-}
-
-.list-bar.buttons li a {
-    color: white;
-    text-decoration: none;  
-}*/
-
 /* LAYOUT: CONTAINERS*/
 
 main {
@@ -690,7 +624,7 @@ main {
 .project-title {
     font-size: 330%;
     margin-top: 1em;
-    margin-bottom: 1em;
+    margin-bottom: 0.5em;
     display: block;
 }
 
