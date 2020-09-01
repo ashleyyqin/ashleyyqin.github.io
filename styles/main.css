@@ -487,11 +487,11 @@ main {
     font-size: 370%;
     margin-top: 1em;
     margin-bottom: 0.5em;
+    margin-left: 4em;
     display: block;
 }
 
 .home-subtitle {
-    /*margin-top: 1em;*/
     margin-bottom: 1em;
     margin-left: 4em;
     display: block;
@@ -504,7 +504,6 @@ main {
 .home-bottom {
     display: block;
     height: calc(2vh + 1vw);
-    margin-bottom: 8em;
 }
 
 .home-pills {
@@ -538,15 +537,6 @@ main {
 /* PAGE STYLES: BIO */
 
 #bio-prof-pic {
-    /*border-radius: 50%;
-    width: 320px;
-    margin: -140px 0 24px 20px;
-    margin-top: 4em;
-    margin-right: 2em;
-    text-align:right;
-    width:60%;
-    display:block;
-    margin:auto;*/
     float: right;
     width:60%;
     margin: -140px 0 24px 20px;
@@ -703,4 +693,9 @@ main {
     margin-top: 1em;
     margin-bottom: 1em;
     display: block;
+}
+
+.project-descriptions {
+    font-weight: 100;
+    font-size: 150%;
 }
