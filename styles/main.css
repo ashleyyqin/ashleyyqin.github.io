@@ -24,6 +24,10 @@ img {
     z-index: 2000;
 }
 
+img a:hover {
+    color: white;
+}
+
 main a:not(.button):not(.fa):not(.arrow),
 footer a:not(.button):not(.fa):not(.arrow){
     padding-left: 2px;
@@ -35,7 +39,6 @@ footer a:not(.button):not(.fa):not(.arrow){
     transition: color 0.5s ease-in-out;
 }
 
-/*
 main a:not(.button):not(.arrow):focus,
 main a:not(.button):not(.arrow):hover,
 footer a:not(.button):not(.arrow):focus,
@@ -43,7 +46,7 @@ footer a:not(.button):not(.arrow):hover {
     background: var(--color-blue);
     color: white;
     transition: all 0.25s;
-}*/
+}
 
 code {
     font-family: 'Alata';
@@ -164,7 +167,6 @@ nav {
 nav a {
     font-size: 100%;
     letter-spacing: 0.05em;
-    /*margin: 1em;*/
     margin-right: 6em;
 }
 
@@ -474,7 +476,7 @@ main {
     margin-bottom: 1em;
     margin-left: 4em;
     display: block;
-    font-weight: 400;
+    font-weight: 500;
     font-size: 200%;
     line-height: 150%;
     color: #c0c0c0;
@@ -483,7 +485,7 @@ main {
 .home-title2 {
     font-size: 370%;
     margin-top: 1em;
-    margin-bottom: 1em;
+    margin-bottom: 0.5em;
     display: block;
 }
 
@@ -539,11 +541,14 @@ main {
     width: 320px;
     margin: -140px 0 24px 20px;
     margin-top: 4em;
-    margin-right: 2em;*/
+    margin-right: 2em;
     text-align:right;
     width:60%;
     display:block;
-    margin:auto;
+    margin:auto;*/
+    display: flex;
+    justify-items: right;
+
 }
 
 @media screen and (max-width: 768px) {
