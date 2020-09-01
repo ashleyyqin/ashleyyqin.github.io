@@ -9,7 +9,6 @@
 /* MAIN STYLES */
 
 body {
-    /*font-family: 'Alata', 'Arial', sans-serif;*/
     font-family: 'Alata';
     padding: 0;
     margin: 0;
@@ -19,10 +18,9 @@ body {
 img {
     width: 100%;
     border: none;
-    position: relative;
+    /*position: relative;*/
     display: block;
     z-index: 2000;
-    float: right;
 }
 
 img a:hover {
@@ -631,5 +629,6 @@ main {
 .project-descriptions {
     font-weight: 100;
     font-size: 150%;
-    margin-left: 50vw;
+    display: block;
+    align-items: center;
 }
