@@ -401,13 +401,13 @@ main {
 
 .home-top {
     display: block;
-    height: 2em;
+    height: 1em;
 }
 
 .home-title1 {
     margin-top: 1em;
     margin-bottom: 1em;
-    margin-left: 4em;
+    margin-left: 3em;
     display: block;
     font-weight: 500;
     font-size: 200%;
@@ -419,13 +419,12 @@ main {
     font-size: 370%;
     margin-top: 1em;
     margin-bottom: 0.5em;
-    /*margin-left: 4em;
-    display: block;*/
+    margin-left: 3em;
 }
 
 .home-subtitle {
     margin-bottom: 1em;
-    margin-left: 4em;
+    margin-left: 3em;
     display: block;
     font-weight: 300;
     font-size: 175%;
@@ -472,6 +471,7 @@ main {
     /*float: right;*/
     justify-content: right !important;
     width:30%;
+    margin-left: 0.5em;
     /*margin: -140px 0 24px 20px;*/
 
 }
