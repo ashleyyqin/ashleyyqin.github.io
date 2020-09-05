@@ -400,7 +400,7 @@ main {
 /* PAGE STYLES: HOME */
 
 .home-title1 {
-    /*margin-bottom: 1em;*/
+    margin-bottom: 0.5em;
     /*margin-left: 3em;*/
     display: block;
     font-weight: 500;
@@ -412,7 +412,7 @@ main {
 .home-title2 {
     font-size: 370%;
     margin-bottom: 0.5em;
-    margin-left: 3em;
+    /*margin-left: 3em;*/
     display: block;
 }
 
