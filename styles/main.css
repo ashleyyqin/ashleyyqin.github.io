@@ -197,7 +197,7 @@ footer > * {
 
 /* LISTS */
 
-ul {
+/*ul {
     list-style: outside none;
     margin: 0;
     padding: 0;
@@ -213,7 +213,7 @@ ul li >,
 ol li > * {
     padding: 0;
     margin: 0;
-}
+}*/
 
 /* LAYOUT: CONTAINERS*/
 
@@ -457,7 +457,6 @@ main {
     width:25%;
     margin-left: 2em;
     margin-top:-1.5em;
-    margin-right: 6em;
 }
 
 @media screen and (max-width: 768px) {
@@ -601,7 +600,8 @@ main {
 }
 
 .img_dataprojects {
-    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
     max-width:900px;
 }
 
@@ -626,7 +626,7 @@ main {
     align-items: center;
     font-size: 400%;
     margin-top: 4em;
-    margin-bottom: 0.5em;
+    /*margin-bottom: 0.5em;*/
     text-align: center;
     display: block;
 }
