@@ -405,10 +405,10 @@ main {
 }
 
 .home-title1 {
-    margin-top: 1em;
+    /*margin-top: 1em;*/
     margin-bottom: 1em;
     margin-left: 3em;
-    display: block;
+    /*display: block;*/
     font-weight: 500;
     font-size: 200%;
     line-height: 150%;
@@ -425,7 +425,7 @@ main {
 .home-subtitle {
     margin-bottom: 1em;
     margin-left: 3em;
-    display: block;
+    /*display: block;*/
     font-weight: 300;
     font-size: 175%;
     line-height: 150%;
