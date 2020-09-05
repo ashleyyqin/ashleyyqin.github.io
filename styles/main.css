@@ -469,7 +469,8 @@ main {
 /* PAGE STYLES: BIO */
 
 #bio-prof-pic {
-    float: right;
+    /*float: right;*/
+    justify-content: right !important;
     width:30%;
     /*margin: -140px 0 24px 20px;*/
 
