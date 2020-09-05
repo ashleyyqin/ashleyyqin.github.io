@@ -401,7 +401,7 @@ main {
 
 .home-title1 {
     margin-bottom: 0.5em;
-    /*margin-left: 3em;*/
+    margin-left: 3em;
     display: block;
     font-weight: 500;
     font-size: 200%;
@@ -412,7 +412,7 @@ main {
 .home-title2 {
     font-size: 370%;
     margin-bottom: 0.5em;
-    /*margin-left: 3em;*/
+    margin-left: 1.5em;
     display: block;
 }
 
@@ -627,4 +627,5 @@ main {
     align-items: center;
     margin-bottom: 0.5em;
     margin-top: 2em;
+    line-height: 1.6;
 }
