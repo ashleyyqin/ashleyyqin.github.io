@@ -400,8 +400,8 @@ main {
 /* PAGE STYLES: HOME */
 
 .home-title1 {
-    margin-bottom: 0.7em;
-    margin-left: 3em;
+    margin-bottom: 1em;
+    margin-left: 2.8em;
     display: block;
     font-weight: 500;
     font-size: 200%;
@@ -610,7 +610,7 @@ main {
 .img_projects {
     justify-content: right !important;
     /*margin-right: 1.5em;*/
-    margin-left: 0.5em;
+    margin-left: 35em;
     max-width:900px;
 }
 
