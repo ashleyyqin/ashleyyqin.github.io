@@ -401,7 +401,7 @@ main {
 
 .home-title1 {
     margin-bottom: 1em;
-    margin-left: 2.8em;
+    margin-left: 2.6em;
     display: block;
     font-weight: 500;
     font-size: 200%;
@@ -412,7 +412,7 @@ main {
 .home-title2 {
     font-size: 370%;
     margin-bottom: 0.5em;
-    margin-left: 1.5em;
+    margin-left: 1.3em;
     display: block;
 }
 
@@ -463,7 +463,7 @@ main {
 
 #bio-prof-pic {
     justify-content: right !important;
-    width:35%;
+    width:25%;
     margin-left: 0.5em;
 }
 
@@ -633,8 +633,9 @@ main {
 
 .work {
     align-items: center;
-    font-size: 370%;
+    font-size: 400%;
     margin-top: 5em;
-    margin-bottom: 3em;
+    margin-bottom: 1em;
+    margin-left: 50%;
     display: block;
 }
