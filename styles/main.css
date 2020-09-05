@@ -197,8 +197,8 @@ footer > * {
 
 /* LISTS */
 
-/*ul {
-    list-style: outside none;
+ul {
+    list-style: circle;
     margin: 0;
     padding: 0;
     font-size: 95%;
@@ -213,7 +213,7 @@ ul li >,
 ol li > * {
     padding: 0;
     margin: 0;
-}*/
+}
 
 /* LAYOUT: CONTAINERS*/
 
@@ -389,8 +389,8 @@ main {
 
 .home-title1 {
     margin-bottom: 1em;
-    /*margin-left: 2.6em;*/
     margin-left: auto;
+    margin-right:0.5em;
     display: block;
     font-weight: 500;
     font-size: 200%;
@@ -401,15 +401,15 @@ main {
 .home-title2 {
     font-size: 370%;
     margin-bottom: 0.5em;
-    /*margin-left: 1.3em;*/
     margin-left: auto;
+    margin-right:0.5em;
     display: block;
 }
 
 .home-subtitle {
     margin-bottom: 1em;
-    /*margin-left: 3em;*/
     margin-left: auto;
+    margin-right:0.5em;
     display: block;
     font-weight: 300;
     font-size: 175%;
@@ -600,8 +600,7 @@ main {
 }
 
 .img_dataprojects {
-    margin-left: auto;
-    margin-right: auto;
+    margin-left: 3em;
     max-width:900px;
 }
 
