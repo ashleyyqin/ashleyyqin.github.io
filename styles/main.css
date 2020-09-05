@@ -408,7 +408,7 @@ main {
     /*margin-top: 1em;*/
     margin-bottom: 1em;
     margin-left: 3em;
-    /*display: block;*/
+    display: block;
     font-weight: 500;
     font-size: 200%;
     line-height: 150%;
@@ -425,7 +425,7 @@ main {
 .home-subtitle {
     margin-bottom: 1em;
     margin-left: 3em;
-    /*display: block;*/
+    display: block;
     font-weight: 300;
     font-size: 175%;
     line-height: 150%;
@@ -470,10 +470,8 @@ main {
 #bio-prof-pic {
     /*float: right;*/
     justify-content: right !important;
-    width:30%;
+    width:50%;
     margin-left: 0.5em;
-    /*margin: -140px 0 24px 20px;*/
-
 }
 
 @media screen and (max-width: 768px) {
@@ -617,7 +615,8 @@ main {
 }
 
 .img_projects {
-    float: right;
+    justify-content: right !important;
+    margin-left: 3em;
 }
 
 .project-title {
