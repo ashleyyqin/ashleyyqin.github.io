@@ -148,7 +148,9 @@ nav {
     display: flex;
     z-index: 2000;
     margin-left: auto;
-    justify-items: right;
+    margin-right: auto;
+    justify-items: center;
+    /*justify-items: right;*/
 }
 
 nav a {
@@ -455,7 +457,7 @@ main {
 
 #bio-prof-pic {
     justify-content: right !important;
-    width:28%;
+    width:25%;
     margin-left: 2em;
     margin-right:-3em;
     margin-top:-1.5em;
