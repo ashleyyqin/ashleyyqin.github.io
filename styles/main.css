@@ -31,22 +31,15 @@ footer a:not(.button):not(.fa):not(.arrow){
     padding-left: 2px;
     padding-right: 2px;
     color: black;
-    /*background: -webkit-gradient(linear, left top, left bottom, from(transparent), color-stop(60%, transparent), color-stop(60%, rgba(0, 131, 255, 0.2)), to(rgba(0, 131, 255, 0.2)));*/
-    /*background: linear-gradient(to bottom, transparent 0, transparent 60%, rgba(0, 131, 255, 0.2) 60%, rgba(0, 131, 255, 0.2) 100%);*/
-    /*background: linear-gradient(to top, var(--color-blue) 50%, transparent 50%);*/
-    /*background: var(--color-blue);*/
-    /*text-decoration: none;*/
-    /*transition: color 0.5s ease-in-out;*/
+    text-decoration: none;
 }
 
 main a:not(.button):not(.arrow):focus,
 main a:not(.button):not(.arrow):hover,
 footer a:not(.button):not(.arrow):focus,
 footer a:not(.button):not(.arrow):hover {
-    /*background: var(--color-blue);*/
-    /*color: white;*/
     color: var(--color-blue);
-    transition: all 0.25s;
+    /*transition: all 0.25s;*/
 }
 
 code {
@@ -156,7 +149,7 @@ nav {
 .underline {
     border-bottom: 2px solid var(--color-blue);
     display: inline-block;
-    line-height: 0.85;
+    line-height: 0.90;
     text-shadow:
     2px 2px white,
     2px -2px white,
@@ -521,10 +514,6 @@ main {
     background-color: #6f42c1;
 }
 
-/*.inline-label-page {*/
-/*    background-color: var(--color-pink);*/
-/*}*/
-
 /* PAGE STYLES: BLOG LIST */
 
 .posts-entry {
@@ -611,8 +600,9 @@ main {
     margin-top: 4em;
     text-align: center;
     display: block;
-    color: white;
-    background: var(--color-blue);
-    height: 35px;
-    width: 140px;
+    /*color: white;*/
+    /*background: var(--color-blue);*/
+    border: 2px solid var(--color-blue);
+
 }
+
