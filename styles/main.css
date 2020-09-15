@@ -1,7 +1,8 @@
 /* VARIABLES */
 
 :root {
-    --color-blue: #164afb;
+    /*--color-blue: #164afb;*/
+    --color-blue: #33CAFF;
     --color-pink: #ff5470;
     --color-slate: #273142;
 }
@@ -33,7 +34,8 @@ footer a:not(.button):not(.fa):not(.arrow){
     color: black;
     /*background: -webkit-gradient(linear, left top, left bottom, from(transparent), color-stop(60%, transparent), color-stop(60%, rgba(0, 131, 255, 0.2)), to(rgba(0, 131, 255, 0.2)));*/
     /*background: linear-gradient(to bottom, transparent 0, transparent 60%, rgba(0, 131, 255, 0.2) 60%, rgba(0, 131, 255, 0.2) 100%);*/
-    background: linear-gradient(to top, var(--color-blue) 50%, transparent 50%);
+    /*background: linear-gradient(to top, var(--color-blue) 50%, transparent 50%);*/
+    background: var(--color-blue);
     text-decoration: none;
     transition: color 0.5s ease-in-out;
 }
@@ -138,17 +140,23 @@ header a:hover {
     color: var(--color-blue);
 }
 
-#siteTitle {
-    z-index: 2000;
-    font-size: 200%;
-    margin-left: 6em;
-}
+/*#siteTitle {*/
+/*    z-index: 2000;*/
+/*    font-size: 200%;*/
+/*    margin-left: 6em;*/
+/*}*/
 
 nav {
     display: flex;
     z-index: 2000;
     margin-left: auto;
     justify-items: right;
+}
+
+.underline {
+    border-bottom: 3px solid currentColor;
+    display: inline-block;
+    line-height: 0.85;
 }
 
 nav a {
