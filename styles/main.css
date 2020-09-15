@@ -1,8 +1,8 @@
 /* VARIABLES */
 
 :root {
-    /*--color-blue: #164afb;*/
-    --color-blue: #33CAFF;
+    --color-blue: #164afb;
+    /*--color-blue: #33CAFF;*/
     --color-pink: #ff5470;
     --color-slate: #273142;
 }
@@ -140,30 +140,33 @@ header a:hover {
     color: var(--color-blue);
 }
 
-/*#siteTitle {*/
-/*    z-index: 2000;*/
-/*    font-size: 200%;*/
-/*    margin-left: 6em;*/
-/*}*/
+#siteTitle {
+    z-index: 2000;
+    font-size: 200%;
+    margin-left: 6em;
+}
 
 nav {
     display: flex;
     z-index: 2000;
     margin-left: auto;
     justify-items: right;
-}
-
-.underline {
-    border-bottom: 3px solid currentColor;
-    display: inline-block;
-    line-height: 0.85;
-}
-
-nav a {
     font-size: 100%;
     letter-spacing: 0.05em;
     margin-right: 6em;
 }
+
+.underline {
+    border-bottom: 1px solid var(--color-blue);
+    display: inline-block;
+    line-height: 0.85;
+}
+
+/*nav a {
+    font-size: 100%;
+    letter-spacing: 0.05em;
+    margin-right: 6em;
+}*/
 
 footer {
     padding: auto;
@@ -516,9 +519,9 @@ main {
     background-color: #6f42c1;
 }
 
-.inline-label-page {
-    background-color: var(--color-pink);
-}
+/*.inline-label-page {*/
+/*    background-color: var(--color-pink);*/
+/*}*/
 
 /* PAGE STYLES: BLOG LIST */
 
@@ -606,4 +609,6 @@ main {
     margin-top: 4em;
     text-align: center;
     display: block;
+    color: white;
+    background: var(--color-blue);
 }
