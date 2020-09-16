@@ -582,13 +582,12 @@ main {
 .img_projects {
     justify-content: right !important;
     width:50%;
-    /*margin-left: 2em;*/
-    margin-right:-3em;
-    /*margin-top:-1.5em;*/
+    /*margin-right:-3em;*/
 }
 
 .img_dataprojects {
-    margin-left: 8em;
+    /*margin-left: 8em;*/
+    text-align: center;
 }
 
 .project-title {
