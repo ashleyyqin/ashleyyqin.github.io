@@ -582,7 +582,7 @@ main {
 .img_projects {
     justify-content: right !important;
     width:50%;
-    /*margin-right:-3em;*/
+    margin-right:-4em;
 }
 
 .img_dataprojects {
