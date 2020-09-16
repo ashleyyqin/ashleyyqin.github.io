@@ -587,8 +587,9 @@ main {
 
 .img_dataprojects {
     /*margin-left: 8em;*/
-    text-align: center;
+    width: 110%;
     margin-top: 1em;
+    margin-bottom: 2em;
 }
 
 .project-title {
@@ -599,12 +600,13 @@ main {
 }
 
 .project-descriptions {
-    font-weight: 100;
+    /*font-weight: 100;*/
     font-size: 150%;
     display: block;
     align-items: center;
     margin-bottom: 0.5em;
     margin-top: 2em;
+    margin-right: 1em;
     line-height: 1.6;
 }
 
