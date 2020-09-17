@@ -138,8 +138,8 @@ header a:hover {
     /*margin-left: auto;*/
     z-index: 2000;
     font-size: 200%;
-    /*margin-left: 6em;
-    margin-right: auto;*/
+    margin-left: 3em;
+    /*margin-right: auto;*/
 }
 
 nav {
