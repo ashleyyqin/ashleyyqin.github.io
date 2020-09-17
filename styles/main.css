@@ -141,17 +141,22 @@ header a:hover {
 }
 
 nav {
-    display: flex;
+    /*display: flex;
     z-index: 2000;
-    /*margin-left: auto;*/
-    justify-items: left;
+    margin-left: auto;
+    justify-items: left;*/
+    z-index: 2000;
+    margin-left: auto;
 }
 
 nav a {
-    font-size: 100%;
+    /*font-size: 100%;
     letter-spacing: 0.05em;
     margin-right: 9em;
-    width: 30px;
+    width: 30px;*/
+    font-size: 100%;
+    letter-spacing: 0.05em;
+    margin: 1em;
 }
 
 footer {
