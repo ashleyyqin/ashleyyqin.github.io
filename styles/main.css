@@ -559,12 +559,12 @@ main {
     justify-content: right !important;
     width:50%;
     margin-right:-4em;
+    margin-top: -1em;
 }
 
 .img_abstracts {
     margin-top: 1em;
     margin-bottom: 2em;
-    /*display: block;*/
     margin-left: auto;
     margin-right: auto;
 }
