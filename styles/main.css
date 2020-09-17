@@ -135,7 +135,7 @@ header a:hover {
 
 #siteTitle {
     display: block;
-    margin-left: auto;
+    /*margin-left: auto;*/
     z-index: 2000;
     font-size: 200%;
     /*margin-left: 6em;
