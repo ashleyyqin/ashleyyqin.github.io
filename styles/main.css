@@ -134,8 +134,11 @@ header a:hover {
 }
 
 #siteTitle {
+    display: block;
+    margin-left: auto;
     z-index: 2000;
     font-size: 200%;
+    margin-left: -1em;
     /*margin-left: 6em;
     margin-right: auto;*/
 }
@@ -147,6 +150,7 @@ nav {
     justify-items: left;*/
     z-index: 2000;
     margin-left: auto;
+    margin-right: 3em;
 }
 
 nav a {
@@ -393,7 +397,6 @@ main {
 .home-title1 {
     margin-bottom: 1em;
     margin-left: auto;
-    /*margin-right:0.5em;*/
     display: block;
     font-weight: 500;
     font-size: 200%;
