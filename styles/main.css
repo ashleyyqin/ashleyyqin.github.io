@@ -560,12 +560,13 @@ main {
     margin-right:-4em;
 }
 
-.img_dataprojects {
-    /*margin-left: 8em;*/
+.img_abstracts {
     width: 140%;
-    left: 50%;
     margin-top: 1em;
     margin-bottom: 2em;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .project-title {
