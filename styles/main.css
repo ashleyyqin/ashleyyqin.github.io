@@ -143,7 +143,7 @@ header a:hover {
 nav {
     display: flex;
     z-index: 2000;
-    margin-left: auto;
+    /*margin-left: auto;*/
     justify-items: left;
 }
 
@@ -151,6 +151,7 @@ nav a {
     font-size: 100%;
     letter-spacing: 0.05em;
     margin-right: 9em;
+    background: yellow;
 }
 
 footer {
@@ -557,7 +558,7 @@ main {
 
 .img_projects {
     justify-content: right !important;
-    width:46%;
+    width:46.5%;
     margin-right:-4em;
     margin-top: -1em;
 }
